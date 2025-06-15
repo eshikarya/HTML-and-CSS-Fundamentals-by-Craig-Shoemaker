@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bethany's Pie Shop</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" width="150" height="47" alt="Bethany's Pie Shop Logo"></li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <article>
+            <h1>Welcome to Bethany's Pie Shop</h1>
+            <picture>
+                <source media="(min-width:1000px)" srcset="images/bethany-700.jpg">
+                <img src="images/bethanysmall.jpg" alt="Bethany's Pie Shop Small">
+            </picture>
+            <h2>Our History</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at nisl lacinia, convallis mauris nec, ullamcorper est. Pellentesque mattis sit amet nibh quis mattis. Cras efficitur turpis diam, eu dignissim massa consectetur eu. Donec viverra arcu in odio fringilla tempus. In efficitur magna id arcu consequat scelerisque. Donec condimentum nec metus eget efficitur. Duis dapibus, lacus quis maximus tempor, metus felis posuere nunc, sit amet volutpat nunc sapien nec nisl. Donec aliquet ultricies luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis iaculis finibus maximus. Aliquam fermentum nunc id ante volutpat hendrerit. Curabitur porta egestas dolor a tristique. Nullam vel augue quis urna condimentum ultrices vitae et ipsum.</p>
+            <p>Mauris consectetur interdum dui vitae vulputate. Nulla laoreet eros id iaculis posuere. Suspendisse non pretium metus. Aenean vel tristique orci, non suscipit leo. Nullam placerat, risus in condimentum viverra, orci velit finibus dui, sed interdum nibh ipsum eget est. Nullam sit amet aliquam dolor. Integer quis nunc ac massa efficitur malesuada pharetra eget mi. Mauris cursus, ante in scelerisque malesuada, elit orci scelerisque sem, ac tincidunt quam ipsum et diam. Phasellus vehicula lorem a ante lacinia interdum. Proin ac nunc quis magna viverra rhoncus. Morbi eleifend est ut odio varius feugiat. Sed suscipit velit ac molestie posuere. Aenean ante mauris, egestas at orci ac, tincidunt gravida ipsum.</p>
+            <div id="calculator"><h2>Order Calculator</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>$12.00</td>
+                        <td><input type="number" id="apple" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Cherry</td>
+                        <td>$15.00</td>
+                        <td><input type="number" id="cherry" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Strawberry</td>
+                        <td>$18.00</td>
+                        <td><input type="number" id="strawberry" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total:</td>
+                        <td id="total-container">$0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </article>
+        <aside>
+            <div class="logo-container">
+                <img src="images/bethanylogo.png" alt="Bethany's Pie Shop Logo" width="120" height="140">
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <address>
+            <h2>Bethany's Pie Shop</h2>
+            <p>555 Bakery Street</p>
+            <p>Brussels, Belgium</p>
+        </address>
+        <p>All rights reserved &copy; Bethany's Pie Shop</p>
+        <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
